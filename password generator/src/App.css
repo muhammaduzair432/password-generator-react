@@ -1,0 +1,65 @@
+@import "tailwindcss";
+body{
+    background-color: rgb(27, 31, 31);
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(17, 18, 39);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+#password{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+    margin: 20px 0;
+    background-color: beige;
+    color: orangered;
+}
+#copy{
+    margin-left: 10px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 17, 142);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 5vh;
+    width: 5vw;
+}
+#copy:hover{
+    background-color: rgb(55, 61, 175);
+}
+#password-container{
+    
+}
+#range-container{
+    color: orangered;
+}
+#checkbox1{
+    color: orangered;
+    margin-top: 10px;
+}
+#checkbox2{
+    color: orangered;
+    margin-top: 10px;
+}
